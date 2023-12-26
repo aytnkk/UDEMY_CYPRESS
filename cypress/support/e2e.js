@@ -18,7 +18,8 @@ import './commands'
 import 'cypress-slow-down/commands'
 import 'cypress-plugin-steps'
 import 'cypress-plugin-xhr-toggle'
-import 'cypress-mochawesome-reporter/register';
+import 'cypress-mochawesome-reporter/register'
+import 'cypress-if';
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
