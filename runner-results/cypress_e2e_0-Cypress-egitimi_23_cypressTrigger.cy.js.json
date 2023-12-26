@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 2,
+  "passes": 1,
+  "pending": 0,
+  "failures": 1,
+  "start": "2023-12-26T12:29:49.848Z",
+  "duration": 19476,
+  "file": "cypress\\e2e\\0-Cypress-egitimi\\23_cypressTrigger.cy.js"
+}

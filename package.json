@@ -1,1 +1,29 @@
-{"name":"udemy-cypress","version":"1.0.0","description":"","main":"cypress.config.js","scripts":{"cy:open":"cypress open","cy:run":"cypress run","cy:spec":"cypress run --spec","cy:test:chrome":"cypress run --browser chrome","cy:test:firefox":"cypress run --browser firefox","cy:test:egde":"cypress run --browser egde","cy:verify":"cypress verify"},"author":"Ayten Kok","license":"ISC","devDependencies":{"@faker-js/faker":"^8.3.1","cypress-delete-downloads-folder":"^0.0.4","cypress-if":"^1.10.5","cypress-mochawesome-reporter":"^3.7.0","cypress-slow-down":"^1.3.1","mochawesome":"^7.1.3","mochawesome-report-generator":"^6.2.0","playwright-webkit":"^1.40.1"},"dependencies":{"cypress-plugin-steps":"^1.1.1","cypress-plugin-xhr-toggle":"^1.0.0"}}
+{
+    "name":"udemy-cypress",
+    "version":"1.0.0",
+    "description":"",
+    "main":"cypress.config.js",
+    "scripts":{"cy:open":"cypress open",
+    "cy:run":"cypress run",
+    "cy:spec":"cypress run --spec",
+    "cy:test:chrome":"cypress run --browser chrome",
+    "cy:test:firefox":"cypress run --browser firefox",
+    "cy:test:egde":"cypress run --browser egde",
+    "cy:verify":"cypress verify",
+    "test": "npx cypress run --headed",
+    "cy:parallel":"cypress-parallel -d cypress/e2e/0-Cypress-egitimi/ -t 5 -s test"  
+},
+
+    "author":"Ayten Kok",
+    "license":"ISC",
+    "devDependencies":{"@faker-js/faker":"^8.3.1",
+    "cypress-delete-downloads-folder":"^0.0.4",
+    "cypress-if":"^1.10.5",
+    "cypress-mochawesome-reporter":"^3.7.0",
+    "cypress-slow-down":"^1.3.1",
+    "mochawesome":"^7.1.3",
+    "mochawesome-report-generator":"^6.2.0",
+    "playwright-webkit":"^1.40.1"},
+    "dependencies":{"cypress-parallel":"^0.14.0",
+    "cypress-plugin-steps":"^1.1.1",
+    "cypress-plugin-xhr-toggle":"^1.0.0"}}

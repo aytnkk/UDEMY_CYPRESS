@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 1,
+  "passes": 1,
+  "pending": 0,
+  "failures": 0,
+  "start": "2023-12-26T12:30:25.076Z",
+  "duration": 8585,
+  "file": "cypress\\e2e\\0-Cypress-egitimi\\33_cypessIf.cy.js"
+}

@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 3,
+  "passes": 3,
+  "pending": 0,
+  "failures": 0,
+  "start": "2023-12-26T12:30:44.537Z",
+  "duration": 520,
+  "file": "cypress\\e2e\\0-Cypress-egitimi\\24_cypressWriteAndReadFile.cy.js"
+}

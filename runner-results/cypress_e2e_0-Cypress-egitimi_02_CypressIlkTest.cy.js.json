@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 2,
+  "passes": 2,
+  "pending": 0,
+  "failures": 0,
+  "start": "2023-12-26T12:28:54.984Z",
+  "duration": 9652,
+  "file": "cypress\\e2e\\0-Cypress-egitimi\\02_CypressIlkTest.cy.js"
+}

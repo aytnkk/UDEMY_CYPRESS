@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 2,
+  "passes": 2,
+  "pending": 0,
+  "failures": 0,
+  "start": "2023-12-26T12:29:48.285Z",
+  "duration": 13647,
+  "file": "cypress\\e2e\\0-Cypress-egitimi\\11_cypressFakerjs.cy.js"
+}

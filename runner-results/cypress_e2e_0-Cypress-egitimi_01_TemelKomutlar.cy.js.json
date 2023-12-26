@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 5,
+  "passes": 1,
+  "pending": 0,
+  "failures": 4,
+  "start": "2023-12-26T12:29:02.379Z",
+  "duration": 13832,
+  "file": "cypress\\e2e\\0-Cypress-egitimi\\01_TemelKomutlar.cy.js"
+}

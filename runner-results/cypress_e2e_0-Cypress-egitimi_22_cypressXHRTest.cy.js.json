@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 4,
+  "passes": 3,
+  "pending": 0,
+  "failures": 1,
+  "start": "2023-12-26T12:29:58.407Z",
+  "duration": 2414,
+  "file": "cypress\\e2e\\0-Cypress-egitimi\\22_cypressXHRTest.cy.js"
+}

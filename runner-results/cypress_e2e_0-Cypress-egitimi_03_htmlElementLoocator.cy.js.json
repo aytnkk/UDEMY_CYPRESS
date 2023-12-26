@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 1,
+  "passes": 0,
+  "pending": 0,
+  "failures": 1,
+  "start": "2023-12-26T12:28:56.819Z",
+  "duration": 4456,
+  "file": "cypress\\e2e\\0-Cypress-egitimi\\03_htmlElementLoocator.cy.js"
+}

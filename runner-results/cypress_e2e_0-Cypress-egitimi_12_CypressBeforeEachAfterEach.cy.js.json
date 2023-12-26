@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 3,
+  "passes": 3,
+  "pending": 0,
+  "failures": 0,
+  "start": "2023-12-26T12:29:26.089Z",
+  "duration": 13840,
+  "file": "cypress\\e2e\\0-Cypress-egitimi\\12_CypressBeforeEachAfterEach.cy.js"
+}

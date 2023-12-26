@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 2,
+  "passes": 2,
+  "pending": 0,
+  "failures": 0,
+  "start": "2023-12-26T12:29:46.171Z",
+  "duration": 6211,
+  "file": "cypress\\e2e\\0-Cypress-egitimi\\20_CypressClearCookies.cy.js"
+}
