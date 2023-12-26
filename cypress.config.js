@@ -30,9 +30,14 @@ module.exports = defineConfig({
    google:"https://www.googl.com",
    saucedemo:"https://www.saucedemo.com"
   },
-  specPattern:'cypress/e2e/**/*.{js,jsx,ts,tsx}'
+  specPattern:'cypress/e2e/**/*.{js,jsx,ts,tsx}',
+  experimentalWebKitSupport:true, // npm i -D playwright-webkit eklemeliyiz terminale // farkli browserlarda test ekmek icin kullanilir
 
-}
+   experimentalRunAllSpecs:true, 
+   experimentalStudio:true
+
+
+},
 });
   
 
