@@ -29,7 +29,8 @@ module.exports = defineConfig({
    amazon:"https://www.amazon.de",
    google:"https://www.googl.com",
    saucedemo:"https://www.saucedemo.com"
-  }
+  },
+  specPattern:'cypress/e2e/**/*.{js,jsx,ts,tsx}'
 
 }
 });
