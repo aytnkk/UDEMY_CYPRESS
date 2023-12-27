@@ -26,11 +26,13 @@ module.exports = defineConfig({
    // baseUrl:"https://example.cypress.io/"
 
    hideXhr: true,
+
    amazon:"https://www.amazon.de",
    google:"https://www.googl.com",
    saucedemo:"https://www.saucedemo.com"
   },
   specPattern:'cypress/e2e/**/*.{js,jsx,ts,tsx}',
+  
   experimentalWebKitSupport:true, // npm i -D playwright-webkit eklemeliyiz terminale // farkli browserlarda test ekmek icin kullanilir
 
    experimentalRunAllSpecs:true, 

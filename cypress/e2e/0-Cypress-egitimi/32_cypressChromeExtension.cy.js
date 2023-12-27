@@ -1,3 +1,5 @@
+
+// bu da ilgili sayfada recorder ozelligi ve plugin i ile yapildi //npx cypress run --spec "path/to/your/saved/scenario.js"
 describe('Chrome extensions', () => {
     it('extension 1', () => {
         cy.visit('https://www.shopist.io/department/chairs');

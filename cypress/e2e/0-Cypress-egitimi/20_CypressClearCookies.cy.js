@@ -1,5 +1,5 @@
 describe('Cypress Clear Cookies',() => { 
-    // testisolation özel senaryolar için veya önceki testlerin durumuyla etkileşime ihtiyaç duyan durumlar için false olarak ayarlanabilir.
+   
         
         before(() => {
             cy.on('uncaught:exception',(err,runnable)=> {return false})  //uncaught:exception probleriyle karsilasinca bu codu eklemek yeterli 

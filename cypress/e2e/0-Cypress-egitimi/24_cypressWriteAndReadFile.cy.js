@@ -1,9 +1,12 @@
+
+
 describe('Cypress Write File', () => {
     it('Write file', () => {
         cy.writeFile('CypressWriteFileDoc/exampleFile.txt','Sifirdan cypress derslerine hosgeldiniz.\n')
         //CypressWriteFileDoc/exampleFile.txt bu uzanti altindaki dosyaya yazdigimiz seyleri yazar
+
         cy.writeFile('CypressWriteFileDoc/exampleFile.txt','Bu egitim serisinde sifirdan cypress ogreneceksiniz',{flag:'a+'})
-        //Not: eger flag ekememzseniz en son yazdriginiz yazdirilir
+        //Not: eger flag eklememzseniz en son yazdirdiginiz yazdirilir
     });
 
 

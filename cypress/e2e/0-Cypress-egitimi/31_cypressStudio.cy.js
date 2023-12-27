@@ -1,3 +1,5 @@
+
+//bu file otomatik olusturuldu studio ozelligi iele
 describe('Cypress Studio Kullanimi', () => {
     it('ornek kullanim', () => {
         cy.visit('https://shopist.io/')
