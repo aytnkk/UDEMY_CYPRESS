@@ -59,6 +59,7 @@
  import 'cypress-file-upload'
 
 import customCommandsLogin from "../pageObjeckModel/customCommandsLogin"
+import AmazonHomepage from '../pageObjeckModel/AmazonHomepage';
 
 
 
@@ -82,5 +83,9 @@ Cypress.Commands.add('loginWithSession',(username,password)=>{
     cy.get('.container > .nav > :nth-child(2) > .nav-link').should('be.visible').and('contain','New Post')
 
     })
+
+
+
+
+    })
     
-})

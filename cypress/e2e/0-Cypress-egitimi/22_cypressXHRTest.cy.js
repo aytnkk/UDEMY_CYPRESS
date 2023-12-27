@@ -44,3 +44,4 @@ describe('XHR testi', () => {  //api gibi dusunebiliriz
 //XHR leri gizlemek icin iki yontem var 1.si e2e wicinde .
 // 2.si terminale npm i cypress-plugin-xhr-toggle  yazip br plugin yukluyoruz
 // sonr ae2e klasorune import ediyoruz : import 'cypress-plugin-xhr-toggle'
+// sonra cypress.config.js ye  env:{hideXhr:true }   yazariz
